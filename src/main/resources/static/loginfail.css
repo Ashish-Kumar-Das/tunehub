@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(0 7% 92%);
+    text-align: center;
+    background-image:url(registerfail_image.jpg);
+    background-size:cover;
+  }
+
+  h1 {
+    color: #ff0000;
+    margin-top: 100px;
+  }
+
+  a {
+    color: #0000ff;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Insert title here</title> 
+<link rel="stylesheet" href="addsongs.css">
+</head> 
+<body> 
+<div class="navbar">
+<form>
+  <ul>
+<button> <li><a href="/map-home">HOME</a></li></button>
+  </ul>
+  </form>
+</div>
+<div class="container">
+    <h2>Welcome To Add Songs</h2>
+    <form action="/addsongs" method="post">
+        <label for="name">Song Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="artist">Song Artist:</label>
+        <input type="text" id="artist" name="artist" required>
+        <label for="genre">Song Genre:</label>
+        <input type="text" id="genre" name="genre" required>
+        <label for="link">Song Link:</label>
+        <input type="text" id="link" name="link" required>
+        <input type="submit" value="ADD SONGS">
+    </form>
+</div>
+ 
+ 
+</body> 
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body {
+            font-family: Arial, sans-serif;
+            background-color: #6f0faf;
+            margin: 0;
+            padding: 0;
+            background-image: url(register_success3.jfif);
+            background-size: cover;
+        }
+        h1 {
+            color: #f9f8f8;
+            text-align: center;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }

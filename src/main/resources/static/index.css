@@ -1,0 +1,73 @@
+@charset "UTF-8";
+ h2{
+      border:none;
+      color:aqua;
+      text-align:center;
+     
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      animation-name: example;
+      animation-duration: 4s;
+
+     
+    }
+    @keyframes example{
+      0%{color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: Right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+body{
+  background-image: url("indexpage.jpg");
+   
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    
+  
+}
+#context{
+  font-size: 20px;
+  color:#F5FFFA;
+  text-align:left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border:3px solid black;
+   border-radius:10px;
+   margin-left:80px;
+   margin-top:90px;
+   margin-right:900px;
+   background-color:black;
+   animation-name: example1;
+      animation-duration: 4s;
+}
+@keyframes example1{
+      0%{background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+    }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="createplaylist.css">
+</head>
+<body>
+<nav>
+<a href="/map-home">HOME</a>
+  <a href="/viewPlaylists">VIEW PLAYLIST</a>
+
+</nav>
+<form action="/addplaylist" method="post">
+  <label>PlayList Name</label>
+  <input type="text" name="name">
+  <br/><br/>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Select</th>
+        <th>Song Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Use th:each loop to iterate through songslist -->
+      <tr th:each="song : ${songslist}">
+        <td>
+          <input type="checkbox" th:name="songs" th:value="${song.id}">
+        </td>
+        <td th:text="${song.name}"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <br/>
+  <input type="submit" value="ADD PLAYLIST">
+</form>
+
+</body>
+</html>
